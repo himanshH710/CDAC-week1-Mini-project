@@ -239,4 +239,78 @@ This project focuses on developing logical thinking by teaching how rows, column
 
 ---
 
+## 4. 🛒 Shopping Cart Simulator
+
+The **Shopping Cart Simulator** is a menu-driven command-line application that simulates the basic functionality of an online shopping system. It allows users to manage a virtual shopping cart by adding products, removing products, searching for items, viewing the cart, calculating the total bill, and clearing the cart.
+
+The application stores product names and their corresponding prices using lists and performs real-time billing calculations. It automatically computes the **subtotal**, applies a **10% discount**, calculates **18% GST**, and generates the **final bill** using operator precedence. The program continues to execute until the user chooses to exit, demonstrating the practical use of the **Walrus Operator (`:=`)** in a menu-driven application.
+
+This project combines all the Python fundamentals learned in the previous projects into a single real-world application, helping build confidence in working with data, loops, conditions, and list operations.
+
+### Key Features
+
+* Menu-driven shopping cart interface.
+* Add products with their prices.
+* Remove products from the cart.
+* View all products currently in the cart.
+* Search for a product by its name.
+* Display the total number of products.
+* Generate a detailed bill with:
+
+  * Subtotal
+  * 10% Discount
+  * 18% GST
+  * Final Bill
+* Clear the entire shopping cart.
+* Uses the Walrus Operator (`:=`) for continuous program execution until exit.
+
+### Shopping Concepts
+
+**Add Product:** Allows users to enter a product name and price, which are stored in separate lists.
+
+**Remove Product:** Deletes a selected product and its corresponding price from the shopping cart.
+
+**View Cart:** Displays all products currently added to the cart along with their prices.
+
+**Search Product:** Searches for a product by name and displays its price if found.
+
+**Total Items:** Counts and displays the total number of products present in the shopping cart.
+
+**Generate Bill:** Calculates the subtotal of all products, applies a **10% discount**, adds **18% GST**, and displays the final payable amount.
+
+**Clear Cart:** Removes every product from the shopping cart, allowing the user to start fresh.
+
+### Concepts Used
+
+* Variables
+* Input & Output
+* Strings
+* Lists
+* List Methods (`append()`, `pop()`, `index()`, `clear()`)
+* Arithmetic Operators
+* Comparison Operators
+* Assignment Operators
+* Membership Operator (`in`)
+* Operator Precedence
+* Conditional Statements (`if`, `elif`, `else`)
+* `for` Loops
+* `while` Loop
+* Walrus Operator (`:=`)
+* String Formatting (f-strings)
+* Menu-Driven Programming
+* Basic Billing System Logic
+
+---
+
 **Language:** Python 3
+
+---
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### 🎉 Repository Summary
+
+After completing these four projects, you will have gained practical experience with the core concepts of Python programming, including user input, variables, operators, strings, lists, loops, conditional statements, nested loops, pattern printing, mathematical logic, menu-driven applications, and the Walrus Operator. These projects provide a strong foundation before moving on to advanced topics such as **functions**, **dictionaries**, **file handling**, **object-oriented programming (OOP)**, and Python frameworks.
+
+
+
