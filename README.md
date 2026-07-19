@@ -171,5 +171,72 @@ The goal of this repository is to build a strong foundation in Python before mov
 
 ---------------------------------------------------------------------------------------------------
 
+---
+
+## 3. ⭐ Pattern Generator
+
+The **Pattern Generator** is a menu-driven command-line application that generates a variety of star, number, and alphabet patterns based on the user's selection. This project is designed to strengthen the understanding of **nested loops**, one of the most important concepts in Python programming.
+
+Users can choose from multiple pattern types, including square, triangle, pyramid, diamond, number, alphabet, and hollow patterns. Each pattern demonstrates how different combinations of loops and conditions can produce unique outputs. The program continues running until the user selects the exit option, utilizing the **Walrus Operator (`:=`)** for efficient menu handling.
+
+This project focuses on developing logical thinking by teaching how rows, columns, spaces, and symbols interact within nested loops, making it an excellent exercise for mastering pattern-based programming.
+
+### Key Features
+
+* Menu-driven interface for selecting different patterns.
+* Generates Square Pattern.
+* Generates Right Triangle Pattern.
+* Generates Inverted Triangle Pattern.
+* Generates Pyramid Pattern.
+* Generates Inverted Pyramid Pattern.
+* Generates Diamond Pattern.
+* Generates Number Triangle.
+* Generates Floyd's Triangle.
+* Generates Alphabet Triangle.
+* Generates Hollow Square Pattern.
+* Uses the Walrus Operator (`:=`) for continuous execution until the user exits.
+
+### Pattern Concepts
+
+**Square Pattern:** Prints a fixed number of rows and columns, forming a complete square.
+
+**Right Triangle:** Prints symbols in increasing order, where the number of symbols equals the current row number.
+
+**Inverted Triangle:** Prints symbols in decreasing order, reducing one symbol in each row.
+
+**Pyramid:** Combines leading spaces and an increasing odd number of symbols to create a centered pyramid.
+
+**Inverted Pyramid:** Reverses the pyramid logic by increasing spaces and decreasing the number of symbols.
+
+**Diamond:** Forms a diamond by combining a pyramid and an inverted pyramid while avoiding duplication of the middle row.
+
+**Number Triangle:** Displays numbers in increasing order on each row, beginning from **1**.
+
+**Floyd's Triangle:** Prints consecutive numbers continuously without restarting from **1** on each new row.
+
+**Alphabet Triangle:** Displays alphabets in increasing order using the `chr()` function and ASCII values.
+
+**Hollow Square:** Prints symbols only along the border of the square while leaving the inner area empty.
+
+### Concepts Used
+
+* Variables
+* Input & Output
+* Strings
+* Nested `for` Loops
+* `while` Loop
+* Walrus Operator (`:=`)
+* Conditional Statements (`if`, `elif`, `else`)
+* Pattern Printing Logic
+* Character Manipulation using `chr()`
+* Arithmetic & Comparison Operators
+* Operator Precedence
+* Menu-Driven Programming
+
+---
+
+---------------------------------------------------------------------------------------------------
+
+---
 
 **Language:** Python 3
